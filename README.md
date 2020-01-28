@@ -13,7 +13,7 @@ CSS MasterClass Course (20.01.28 start!)
 ### CSS Grid
 
 - [ ] Basics ( Row, columns and gaps)
-- [ ]Auto columns, auto rows
+- [ ] Auto columns, auto rows
 - [ ] Template Areas
 - [ ] fr unit, repeat
 - [ ] minmax, max-content, min-content
@@ -29,21 +29,21 @@ CSS MasterClass Course (20.01.28 start!)
 ### Using CSS4
 
 - [ ] Installing Parcel
-- [] Configuring PostCSS
-- [] Testing
+- [ ] Configuring PostCSS
+- [ ] Testing
 
 ### CSS4 Awesomeness
 
-- [] :matches , :not
-- [] CSS Variables
-- [] @custom-selector
-- [] @custom-media
-- [] Media Query Ranges
-- [] color-mod, gray(), system-ui
-- [] Nesting Rules
+- [ ] :matches , :not
+- [ ] CSS Variables
+- [ ] @custom-selector
+- [ ] @custom-media
+- [ ] Media Query Ranges
+- [ ] color-mod, gray(), system-ui
+- [ ] Nesting Rules
 
 ### Conclusions
 
-- [] CSS Grid Kiss
-- [] Practice Flexbox
-- [] Practice Grid
+- [ ] CSS Grid Kiss
+- [ ] Practice Flexbox
+- [ ] Practice Grid
