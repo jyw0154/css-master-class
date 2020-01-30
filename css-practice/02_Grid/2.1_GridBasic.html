@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GridBasic</title>
+    <style>
+      /* 그리드에는 row와 column이 있어서 item의 자유로운 레이아웃설정가능 */
+      /* item의 갯수만큼 크기가 설정되서 그리드로 나타내진다. */
+      .father {
+        display: grid;
+        grid-template-columns: 30px 50px 45px;
+        grid-template-rows: 50px 25px 25px;
+        grid-gap: 5px;
+      }
+
+      .box {
+        background-color: darkcyan;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="father">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>

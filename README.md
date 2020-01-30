@@ -12,7 +12,7 @@ CSS MasterClass Course (20.01.28 start!)
 
 ### CSS Grid
 
-- [ ] Basics ( Row, columns and gaps)
+- [x] Basics ( Row, columns and gaps)
 - [ ] Auto columns, auto rows
 - [ ] Template Areas
 - [ ] fr unit, repeat
