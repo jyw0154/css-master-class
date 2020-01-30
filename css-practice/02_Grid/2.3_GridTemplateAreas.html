@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Grid Template Areas</title>
+    <style>
+      .father {
+        display: grid;
+        grid-auto-rows: 100px;
+        grid-gap: 5px;
+        /* grid-template-area */
+        /* 이 칸의 아이템이 어떻게 쓰일지 미리 설정해두는 것? */
+        /* 화면에 공근달을 그린 다음에 안을 채우는 것 */
+        /* 이 기능이 최고인 게 넓이, 높이, 마진, 패딩 속성들을 정해주지 않아도 알아서 위치를 찾아서 감. */
+        grid-template-areas:
+          "header header header"
+          "content content sidebar"
+          "content content sidebar"
+          "footer footer footer";
+      }
+
+      .first {
+        /* 그리고 여기에서 그 설정해둔 지역이름을 참조하면 됨. */
+        grid-area: header;
+        background-color: darkcyan;
+      }
+
+      .second {
+        grid-area: content;
+        background-color: darkgreen;
+      }
+
+      .third {
+        grid-area: sidebar;
+        background-color: darkred;
+      }
+
+      .fourth {
+        grid-area: footer;
+        background-color: gold;
+      }
+      .fifth {
+        background-color: indigo;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="father">
+      <div class="first"></div>
+      <div class="second"></div>
+      <div class="third"></div>
+      <div class="fourth"></div>
+      <div class="fifth"></div>
+    </div>
+  </body>
+</html>
