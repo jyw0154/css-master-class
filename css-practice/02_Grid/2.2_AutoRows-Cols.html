@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AutoRows and Auto Columns</title>
+    <style>
+      .father {
+        display: grid;
+        /* element는 5개가 주어졌는데, 그리드 열*행은 4 1개가 남은 이 남는걸 grid-auto-rows로 자동 생성 */
+        grid-template-columns: 30px 50px;
+        grid-template-rows: 50px 25px;
+        grid-gap: 5px;
+        /* 그리드 자동정렬 디폴트로 생성되게끔. */
+        /* grid-auto-flow는 flex-direction과 유사함. */
+        grid-auto-flow: row;
+        grid-auto-rows: 50px;
+      }
+
+      .box {
+        background-color: darkcyan;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="father">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
