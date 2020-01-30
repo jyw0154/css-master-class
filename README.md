@@ -15,7 +15,7 @@ CSS MasterClass Course (20.01.28 start!)
 - [x] Basics ( Row, columns and gaps)
 - [x] Auto columns, auto rows
 - [x] Template Areas
-- [ ] fr unit, repeat
+- [x] fr unit, repeat
 - [ ] minmax, max-content, min-content
 - [ ] auto-fill, auto-fit
 - [ ] Justify Content, Align Content and Place Content
