@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FR and REPEAT()</title>
+    <style>
+      .father {
+        display: grid;
+        grid-auto-rows: 200px;
+        grid-gap: 5px;
+        /* 최대한 자리를 찿지하는 것. fr */
+        /* 다른 열들과 상대적으로 크기를 조절하게 된다. */
+        /* grid-template-columns: 2fr 1fr 2fr 1fr 2fr; */
+        /* repeat -> templates-columns에 속성을 준다. */
+        /* 3개의 1fr을 주고 나머지가 4fr을 가진다.  */
+        grid-template-columns: repeat(3, 1fr) 2fr;
+      }
+
+      .first {
+        background-color: indigo;
+      }
+      .second {
+        background-color: khaki;
+      }
+      .third {
+        background-color: lawngreen;
+      }
+      .fourth {
+        background-color: lightgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="father">
+      <div class="first"></div>
+      <div class="second"></div>
+      <div class="third"></div>
+      <div class="fourth"></div>
+    </div>
+  </body>
+</html>
