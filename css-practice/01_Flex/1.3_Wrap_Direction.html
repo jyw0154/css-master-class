@@ -7,6 +7,31 @@
     <title>Wrap and Direction</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  <style>
+    body {
+      background-color: white;
+    }
+
+    .father {
+      height: 150vh;
+      flex-wrap: nowrap;
+      justify-content: flex-end;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .box {
+      color: white;
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 150px;
+      height: 150px;
+      background-color: blue;
+      border: 1px solid white;
+    }
+  </style>
   <body>
     <!-- flexbox속성중 방향에 대한 개념 -->
     <div class="father">

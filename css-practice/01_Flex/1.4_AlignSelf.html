@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Align</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    body {
+      background-color: white;
+    }
+
+    .father {
+      height: 100vh;
+      flex-wrap: nowrap;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .box {
+      color: white;
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 150px;
+      height: 150px;
+      background-color: blue;
+      border: 1px solid white;
+      align-self: center;
+    }
+
+    /* 지금부터 self-align */
+    .box:first-child {
+      background-color: red;
+      align-self: flex-end;
+    }
+  </style>
+  <body>
+    <!-- align-self속성 개념 -->
+    <!-- flex-container대신 flex-item에게 정렬 옵션을 각각 주는 것. -->
+    <div class="father">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+    </div>
+  </body>
+</html>
