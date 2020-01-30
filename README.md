@@ -5,10 +5,10 @@ CSS MasterClass Course (20.01.28 start!)
 ### CSS Flex
 
 - [x] CSS Flex Basics
-- [ ] Main Axis and Cross Axis
-- [ ] Flex Direction
-- [ ] Flex Wrap
-- [ ] Align Self
+- [x] Main Axis and Cross Axis
+- [x] Flex Direction
+- [x] Flex Wrap
+- [x] Align Self
 
 ### CSS Grid
 
