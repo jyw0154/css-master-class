@@ -4,18 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>FR and REPEAT</title>
+    <title>minmax, max-content, min-content</title>
     <style>
       .father {
         display: grid;
         grid-auto-rows: 200px;
         grid-gap: 5px;
-        /* 최대한 자리를 찿지하는 것. fr */
-        /* 다른 열들과 상대적으로 크기를 조절하게 된다. */
-        /* grid-template-columns: 2fr 1fr 2fr 1fr 2fr; */
-        /* repeat -> templates-columns에 속성을 준다. */
-        /* 3개의 1fr을 주고 나머지가 4fr을 가진다.  */
-        grid-template-columns: repeat(3, 1fr) 2fr;
+        /* minmax는 내가 창의 레이아웃을 조정해도 크기가 최소크기가 정할 수 있는 것. */
+        /* max-content를 사용하면 안에 있는 컨텐츠를 기반으로 크기를 조정시킨다. */
+
+        grid-template-columns: min-content repeat(4, 1fr);
       }
 
       .first {
@@ -34,7 +32,9 @@
   </head>
   <body>
     <div class="father">
-      <div class="first"></div>
+      <div class="first">
+        rewefadsfsfds
+      </div>
       <div class="second"></div>
       <div class="third"></div>
       <div class="fourth"></div>
