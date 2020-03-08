@@ -22,7 +22,7 @@ CSS MasterClass Course (20.01.28 start!)
 - [x] Justify Items, Align Items and Place Items
 - [x] Grid Column, Column Start and End
 - [x] Line Naming
-- [ ] Grid Row, Row Start and End
+- [x] Grid Row, Row Start and End
 - [ ] Grid Area
 - [ ] Justify, Align, Place Self
 
