@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Justify Content, Align Content and Place Content</title>
+    <title>Justify Items, Align Items and Place Items</title>
     <style>
       .father {
         display: grid;
@@ -12,12 +12,12 @@
         grid-gap: 10px;
         grid-template-columns: repeat(5, 100px);
         font-size: 30px;
-        /* place-content => justify-content와 align-content의 propery method */
-        /* justify-content: center; */
-        /* align-content: center; */
-        /* justify-content : 수평적으로, align-items : 수직적으로 */
-        place-content: center end;
         height: 100vh;
+        /* col안에 있는 contents들을 정렬시키는것.  */
+        /* align-items, justify-items */
+        /* 마찬가지로 place-items는 justify-contents, align-items 의 프로퍼티 가지고있는 */
+        align-items: center;
+        justify-items: center;
       }
 
       .box:nth-child(even) {
