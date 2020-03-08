@@ -1,0 +1,29 @@
+{
+  "name": "css-master-class",
+  "version": "1.0.0",
+  "description": "CSS MasterClass Course (20.01.28 start!)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyw0154/css-master-class.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyw0154/css-master-class/issues"
+  },
+  "homepage": "https://github.com/jyw0154/css-master-class#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^6.7.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
+  }
+}

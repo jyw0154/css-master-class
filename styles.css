@@ -1,0 +1,8 @@
+/* persudo selector 함수형 선택자 */
+li:matches(:nth-child(even), .target) {
+  background-color: blue;
+}
+
+li:not(.target) {
+  background-color: blueviolet;
+}
