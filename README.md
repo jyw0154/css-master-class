@@ -23,7 +23,7 @@ CSS MasterClass Course (20.01.28 start!)
 - [x] Grid Column, Column Start and End
 - [x] Line Naming
 - [x] Grid Row, Row Start and End
-- [ ] Grid Area
+- [x] Grid Area
 - [ ] Justify, Align, Place Self
 
 ### Using CSS4
