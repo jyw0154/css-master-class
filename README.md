@@ -21,7 +21,7 @@ CSS MasterClass Course (20.01.28 start!)
 - [x] Justify Content, Align Content and Place Content
 - [x] Justify Items, Align Items and Place Items
 - [x] Grid Column, Column Start and End
-- [ ] Line Naming
+- [x] Line Naming
 - [ ] Grid Row, Row Start and End
 - [ ] Grid Area
 - [ ] Justify, Align, Place Self
