@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>autofill & autofit</title>
+    <style>
+      .father {
+        display: grid;
+        grid-auto-rows: 100px;
+        grid-gap: 10px;
+        /* 하나의 프랙션이 오토핏(자동으로 채워졌다.) */
+        /* 반응형으로 크기 조절이 자동으로 됨. (창크기에 따라서) */
+        /* auto-fit : 가능한 많이 집어넣어라. */
+        /* auto-fit은 content를 확장(stretch)해서 브라우저를 꽉 채우는 것.
+        auto-fill은 최대한 모으는 것. 더많은 col을 넣기 위해 */
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      }
+
+      .box:nth-child(even) {
+        background-color: indigo;
+      }
+      .box:nth-child(odd) {
+        background-color: khaki;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="father">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
