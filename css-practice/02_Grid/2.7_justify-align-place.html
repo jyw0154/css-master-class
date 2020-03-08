@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Justify Content, Align Content and Place Content</title>
+    <style>
+      .father {
+        display: grid;
+        grid-auto-rows: 100px;
+        grid-gap: 10px;
+        grid-template-columns: repeat(5, 100px);
+        font-size: 30px;
+        /* place-content => justify-content와 align-content의 propery method */
+        /* justify-content: center; */
+        /* align-content: center; */
+        place-content: center end;
+        height: 100vh;
+      }
+
+      .box:nth-child(even) {
+        background-color: indigo;
+      }
+      .box:nth-child(odd) {
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="father">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+    </div>
+  </body>
+</html>

@@ -18,7 +18,7 @@ CSS MasterClass Course (20.01.28 start!)
 - [x] fr unit, repeat
 - [x] minmax, max-content, min-content
 - [x] auto-fill, auto-fit
-- [ ] Justify Content, Align Content and Place Content
+- [x] Justify Content, Align Content and Place Content
 - [ ] Justify Items, Align Items and Place Items
 - [ ] Grid Column, Column Start and End
 - [ ] Line Naming
