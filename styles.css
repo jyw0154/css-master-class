@@ -9,7 +9,7 @@ li:not(.target) {
 
 /* root -> html 상위에 있는 element
 --(대시)(변수이름)으로 변수 선언 및 할당시키고, var(--<varname>)으로 사용한다. */
-:root {
+/* :root {
   --awsomeColor: #29bacd;
 }
 
@@ -17,8 +17,21 @@ li:first-child a {
   color: var(--awsomeColor);
 }
 
-@custom-selector :--headers h1, h2, h3, h4, h5, h6;
+/* custom-selector 가 있는 문서에서는 모두 사용가능하다. 이름을 달리해서 */
+/* @custom-selector :--headers h1, h2, h3, h4, h5, h6;
 
 :--headers {
   color: #8e44ad;
+} */
+
+/* media쿼리를 커스텀한다고 보면 된다. 사용법을 숙지하면 더 깔끔하고 멋진 CSS스타일링 할 수 있음. */
+/* media query range 마찬가지로 커스텀하게 사용한다. 
+마치 vjs 과정에서 배운 자바스크립트 사용하듯이 한다. */
+
+@custom-media --ipad-size (450px <= width < 850px);
+
+@media (--ipad-size) {
+  body {
+    background-color: khaki;
+  }
 }
