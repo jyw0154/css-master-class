@@ -1,8 +1,24 @@
 /* persudo selector 함수형 선택자 */
-li:matches(:nth-child(even), .target) {
+/* li:matches(:nth-child(even), .target) {
   background-color: blue;
 }
 
 li:not(.target) {
   background-color: blueviolet;
+} */
+
+/* root -> html 상위에 있는 element
+--(대시)(변수이름)으로 변수 선언 및 할당시키고, var(--<varname>)으로 사용한다. */
+:root {
+  --awsomeColor: #29bacd;
+}
+
+li:first-child a {
+  color: var(--awsomeColor);
+}
+
+@custom-selector :--headers h1, h2, h3, h4, h5, h6;
+
+:--headers {
+  color: #8e44ad;
 }
