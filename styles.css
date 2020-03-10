@@ -27,11 +27,39 @@ li:first-child a {
 /* media쿼리를 커스텀한다고 보면 된다. 사용법을 숙지하면 더 깔끔하고 멋진 CSS스타일링 할 수 있음. */
 /* media query range 마찬가지로 커스텀하게 사용한다. 
 마치 vjs 과정에서 배운 자바스크립트 사용하듯이 한다. */
-
+/* 
 @custom-media --ipad-size (450px <= width < 850px);
 
 @media (--ipad-size) {
   body {
     background-color: khaki;
+  }
+} */
+
+/* 이제 color-mod가 더 이상 지원되지 않기 때문에 npm 으로 플러그인 설치가 필요함. (자세한 설명은 nomadcoder wiki로) */
+/* h1 {
+  color: #f1c460;
+}
+h1:hover {
+  color: red; */
+/* } */
+
+/* 계속 체인성질을 띄는 CSS 그물망규칙(Nesting rules) */
+/* 수정과 디자인을 씌우는 것에 용이할 수 있음. */
+main {
+  background-color: blue;
+  & section {
+    background-color: red;
+    width: 500px;
+    & li {
+      background-color: yellow;
+      width: 400px;
+      & a {
+        color: black;
+        &:hover {
+          font-size: 30px;
+        }
+      }
+    }
   }
 }

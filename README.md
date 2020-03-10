@@ -39,8 +39,8 @@ CSS MasterClass Course (20.01.28 start!)
 - [x] @custom-selector
 - [x] @custom-media
 - [x] Media Query Ranges
-- [ ] color-mod, gray(), system-ui
-- [ ] Nesting Rules
+- [x] color-mod(depreacated), gray(), system-ui
+- [x] Nesting Rules
 
 ### Conclusions
 
