@@ -44,6 +44,8 @@ CSS MasterClass Course (20.01.28 start!)
 
 ### Conclusions -> 아주 멋진 그리드 플러그인
 
-- [ ] CSS Grid Kiss
-- [ ] Practice Flexbox
-- [ ] Practice Grid
+- [x] CSS Grid Kiss => css-grid-kiss 사이트 참고할 것!
+- [x] Practice Flexbox => frog flex practice
+- [x] Practice Grid => grid garden
+
+### CSS를 이해하는 가장 좋은 방법 => 그냥 예시들을 보고 직접해보면 됨!
