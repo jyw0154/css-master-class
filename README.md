@@ -32,7 +32,7 @@ CSS MasterClass Course (20.01.28 start!)
 - [x] Configuring PostCSS
 - [x] Testing
 
-### CSS4 Awesomeness
+### CSS4 Awesomeness -> CSS4의 플러그인
 
 - [x] :matches , :not
 - [x] CSS Variables
@@ -40,9 +40,9 @@ CSS MasterClass Course (20.01.28 start!)
 - [x] @custom-media
 - [x] Media Query Ranges
 - [x] color-mod(depreacated), gray(), system-ui
-- [x] Nesting Rules
+- [x] Nesting Rules -> 이거 잘쓰면 CSS 스타일시트입히는 것에 실력발휘가능 무궁무진함.
 
-### Conclusions
+### Conclusions -> 아주 멋진 그리드 플러그인
 
 - [ ] CSS Grid Kiss
 - [ ] Practice Flexbox
